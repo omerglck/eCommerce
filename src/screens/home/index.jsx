@@ -93,7 +93,7 @@ const Home = () => {
       {loading ? (
         <Spinner />
       ) : error ? (
-        <Text>Error: {error}</Text>
+        <Text style={styles.errorText}>Error: {error}</Text>
       ) : (
         <FlatList
           keyExtractor={item => item.id.toString()}

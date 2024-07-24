@@ -6,7 +6,9 @@ const screenStyle = StyleSheet.create({
     flex: 1,
     backgroundColor: AppColors.WHITE,
     padding: 10,
+  
   },
+
 });
 
 export {screenStyle};
